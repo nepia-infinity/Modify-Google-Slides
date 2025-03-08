@@ -1,8 +1,8 @@
 ![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
 
-[https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
-[note：Google Slides　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
-- 
+- [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
+- [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
+
 
 
 | Slide # | Slide ID | Element # | Element ID | Element Text |
