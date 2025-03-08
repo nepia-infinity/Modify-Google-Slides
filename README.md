@@ -18,7 +18,7 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 *   [GitHubの関連リポジトリ](https://github.com/googleworkspace/python-samples/blob/main/slides/quickstart/quickstart.py)
 
 ## ブログなどの関連リンクなど
-*   [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
+*   [サンプルのGoogle Slides](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
 *   [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
 
 ![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
@@ -46,14 +46,23 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 | 6 | SLIDES_API1490328969_12 | 1 | SLIDES_API1490328969_13 | デスク  ・しずか ・ドラえもん ・スネ夫 ・ジャイアン |
 | 7 | SLIDES_API1490328969_16 | 1 | SLIDES_API1490328969_17 | 掃除機  ・ドラえもん ・スネ夫 ・のび太 ・しずか |
 
+## コマンドなど
+```
+cd C:\Users\nepia\OneDrive\デスクトップ\Google_Slides
+```
+カレントディレクトリに移動
 
-## フォルダ構成
-C:.
-│  .gitignore
-│  credentials.json
-│  README.md
-│  read_slides_contents.py
-│  slides.md
-│  token.json
-│  
-└─venv
+```
+python -m venv venv
+```
+仮想環境を作成。1回しか使わない
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+```
+Visual Studio Codeのコマンドでエラーが出ないようにする
+
+```
+.\venv\Scripts\Activate.ps1
+```
+仮想環境を有効にする
