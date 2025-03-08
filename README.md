@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
-- [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
-- [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
+# 概要
+- Pythonを使って、Google Slidesを操作することを学ぶためのスクリプト
+- GCPの設定に苦戦
 
 ## Google Slides API 利用時の注意点
 
@@ -17,7 +17,11 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 *   [Quick Start](https://developers.google.com/slides/api/quickstart/python?hl=ja)
 *   [https://developers.google.com/identity](https://developers.google.com/identity)
 *   [GitHubの関連リポジトリ](https://github.com/googleworkspace/python-samples/blob/main/slides/quickstart/quickstart.py)
+*   [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
+*   [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
 
+![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
+  
 | Slide # | Slide ID | Element # | Element ID | Element Text |
 |---------|----------|-----------|------------|--------------|
 | 1 | gcb9a0b074_1_0 | 1 | gcb9a0b074_1_1 | {title}  ・{people1} ・{people2} ・{people3} ・{people4} |
