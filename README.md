@@ -1,7 +1,6 @@
 ![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
-- 今回はローカルで動作するスクリプトなので、デスクトップのクライアントIDを発行することがが大切
+- 今回はローカルで動作するスクリプトなので、GCP側のOAuthデスクトップのクライアントIDを発行することがが大切
 - 間違ったクライアントIDを発行していると、400エラーが生じる
-
 - [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
 - [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
 
