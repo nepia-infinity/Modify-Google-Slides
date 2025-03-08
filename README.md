@@ -66,3 +66,8 @@ Visual Studio Codeのコマンドでエラーが出ないようにする
 .\venv\Scripts\Activate.ps1
 ```
 仮想環境を有効にする
+
+```
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+仮想環境に最新のライブラリをインストールする
