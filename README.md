@@ -1,8 +1,20 @@
 ![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
-- 今回はローカルで動作するスクリプトなので、GCP側のOAuthデスクトップのクライアントIDを発行することがが大切
-- 間違ったクライアントIDを発行していると、400エラーが生じる
 - [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
 - [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
+
+## Google Slides API 利用時の注意点 (要約)
+
+Google Slides API を利用する際は、以下の点に注意してください。
+
+1.  **OAuth 2.0 クライアント ID:** デスクトップ アプリケーション用を使用 (ウェブアプリ用は `400` エラーの原因)。
+2.  **認証情報:** ダウンロードしたファイルは `credentials.json` にリネーム。
+3.  **ファイルパス:** スクリプト内で `credentials.json` をフルパス指定。
+4.  **機密情報 (最重要):** `credentials.json` と `token.json` は `.gitignore` に追加し、Git にコミットしない。環境変数やシークレット管理ツールで安全に管理。
+
+**補足:** Google API の仕様変更に注意し、公式ドキュメントも参照してください:
+
+*   Google Slides API: [https://developers.google.com/slides](https://developers.google.com/slides)
+*   Google Identity Platform (OAuth 2.0): [https://developers.google.com/identity](https://developers.google.com/identity)
 
 | Slide # | Slide ID | Element # | Element ID | Element Text |
 |---------|----------|-----------|------------|--------------|
