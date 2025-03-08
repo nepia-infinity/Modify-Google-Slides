@@ -12,10 +12,12 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 4.  **機密情報 (最重要):** `credentials.json` と `token.json` は `.gitignore` に追加し、Git にコミットしない
 5.  **環境変数**や**シークレット管理ツール**で安全に管理
 
-**補足:** Google API の仕様変更に注意し、公式ドキュメントも参照してください:
+**公式ドキュメント:** Google API の仕様変更に注意し、公式ドキュメントも参照してください:
 
 *   [Quick Start](https://developers.google.com/slides/api/quickstart/python?hl=ja)
 *   [GitHubの関連リポジトリ](https://github.com/googleworkspace/python-samples/blob/main/slides/quickstart/quickstart.py)
+
+## ブログなどの関連リンクなど
 *   [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
 *   [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
 
@@ -43,3 +45,15 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 | 5 | SLIDES_API1490328969_8 | 1 | SLIDES_API1490328969_9 | 床  ・ジャイアン ・しずか ・ドラえもん ・のび太 |
 | 6 | SLIDES_API1490328969_12 | 1 | SLIDES_API1490328969_13 | デスク  ・しずか ・ドラえもん ・スネ夫 ・ジャイアン |
 | 7 | SLIDES_API1490328969_16 | 1 | SLIDES_API1490328969_17 | 掃除機  ・ドラえもん ・スネ夫 ・のび太 ・しずか |
+
+
+## フォルダ構成
+C:.
+│  .gitignore
+│  credentials.json
+│  README.md
+│  read_slides_contents.py
+│  slides.md
+│  token.json
+│  
+└─venv
