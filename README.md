@@ -15,7 +15,6 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 **補足:** Google API の仕様変更に注意し、公式ドキュメントも参照してください:
 
 *   [Quick Start](https://developers.google.com/slides/api/quickstart/python?hl=ja)
-*   [https://developers.google.com/identity](https://developers.google.com/identity)
 *   [GitHubの関連リポジトリ](https://github.com/googleworkspace/python-samples/blob/main/slides/quickstart/quickstart.py)
 *   [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
 *   [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
