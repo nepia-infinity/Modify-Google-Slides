@@ -1,8 +1,7 @@
 ![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
 
-```
 [https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
-```
+
 
 | Slide # | Slide ID | Element # | Element ID | Element Text |
 |---------|----------|-----------|------------|--------------|
