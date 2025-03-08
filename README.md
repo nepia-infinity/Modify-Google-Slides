@@ -75,5 +75,5 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 ```
 tree /F | clip
 ```
-コマンドプロンプトでフォルダ構造などを取得するコマンド
-仮想環境を出力したら14万文字あった....。
+- コマンドプロンプトでフォルダ構造などを取得するコマンド
+- 仮想環境を出力したら14万文字あった....。
