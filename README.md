@@ -2,7 +2,7 @@
 - [サンプルのGoogle Slidesのリンク](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
 - [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
 
-## Google Slides API 利用時の注意点 (要約)
+## Google Slides API 利用時の注意点
 
 Google Slides API を利用する際は、以下の点に注意してください。
 
