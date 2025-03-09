@@ -1,4 +1,4 @@
-| Slide # | Slide ID | Element # | Element ID | Element Text |
+| Page | Slide ID | Element # | Element ID | Element Text |
 |---------|----------|-----------|------------|--------------|
 | 1 | gcb9a0b074_1_0 | 1 | gcb9a0b074_1_1 | {title}  ・{people1} ・{people2} ・{people3} ・{people4} |
 | 2 | ge965474a9_3_282 | 1 | ge965474a9_3_301 | 2015 年 8 月 |

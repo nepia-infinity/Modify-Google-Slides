@@ -73,7 +73,7 @@ def write_slides_to_markdown(presentation, output_file):
     slides = presentation.get("slides", [])
     lines = []
     # ヘッダー行
-    lines.append("| Slide # | Slide ID | Element # | Element ID | Element Text |")
+    lines.append("| Page | Slide ID | Element # | Element ID | Element Text |")
     lines.append("|---------|----------|-----------|------------|--------------|")
     
     for slide_index, slide in enumerate(slides):
@@ -138,9 +138,7 @@ def main():
         # slide_id, element_id, textなどをマークダウンファイルとして出力する 
         slides = presentation.get("slides")
         presentation = service.presentations().get(presentationId=PRESENTATION_ID).execute()
-        write_slides_to_markdown(presentation, "slides.md")
-
-        
+        write_slides_to_markdown(presentation, "slides.md")        
         
     except HttpError as err:
         print(err)
