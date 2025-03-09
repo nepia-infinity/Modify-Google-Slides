@@ -22,8 +22,6 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 *   [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
 
 ![image](https://github.com/user-attachments/assets/1c70ce77-e8b7-49d3-812e-00fb03772345)
-![image](https://github.com/user-attachments/assets/909caded-236a-48a0-b76b-f51be4d91f93)
-
   
 | Slide Page | Slide ID | Element | Element ID | Element Text |
 |---------|----------|-----------|------------|--------------|
@@ -47,6 +45,8 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 | 5 | SLIDES_API1490328969_8 | 1 | SLIDES_API1490328969_9 | 床  ・ジャイアン ・しずか ・ドラえもん ・のび太 |
 | 6 | SLIDES_API1490328969_12 | 1 | SLIDES_API1490328969_13 | デスク  ・しずか ・ドラえもん ・スネ夫 ・ジャイアン |
 | 7 | SLIDES_API1490328969_16 | 1 | SLIDES_API1490328969_17 | 掃除機  ・ドラえもん ・スネ夫 ・のび太 ・しずか |
+
+![image](https://github.com/user-attachments/assets/909caded-236a-48a0-b76b-f51be4d91f93)
 
 ## コマンドなど
 ```
