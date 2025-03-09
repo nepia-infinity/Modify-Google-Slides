@@ -46,6 +46,8 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 | 6 | SLIDES_API1490328969_12 | 1 | SLIDES_API1490328969_13 | デスク  ・しずか ・ドラえもん ・スネ夫 ・ジャイアン |
 | 7 | SLIDES_API1490328969_16 | 1 | SLIDES_API1490328969_17 | 掃除機  ・ドラえもん ・スネ夫 ・のび太 ・しずか |
 
+- SLIDES_API1490328969_0　この部分はGASで加筆修正した部分
+
 ![image](https://github.com/user-attachments/assets/909caded-236a-48a0-b76b-f51be4d91f93)
 
 ## コマンドなど
