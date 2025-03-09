@@ -83,5 +83,5 @@ tree /F | clip
 
 - SLIDES_API1490328969_0　この部分はGASで加筆修正した部分
 
-## ファイル構成
+## Google Slidesの構成
 ![image](https://github.com/user-attachments/assets/909caded-236a-48a0-b76b-f51be4d91f93)
