@@ -3,7 +3,6 @@
 - GCPの設定に苦戦
 
 ## Google Slides API 利用時の注意点
-
 Google Slides API を利用する際は、以下の点に注意してください。
 
 1.  **OAuth 2.0 クライアント ID:** デスクトップ アプリケーション用を使用 (ウェブアプリ用は `400` エラーの原因)。
@@ -16,6 +15,38 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 
 *   [Quick Start](https://developers.google.com/slides/api/quickstart/python?hl=ja)
 *   [GitHubの関連リポジトリ](https://github.com/googleworkspace/python-samples/blob/main/slides/quickstart/quickstart.py)
+
+## コマンドなど
+```
+cd C:\Users\nepia\OneDrive\デスクトップ\Google_Slides
+```
+カレントディレクトリに移動
+
+```
+python -m venv venv
+```
+仮想環境を作成。基本1回しか使わない
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+```
+Visual Studio Codeのコマンドでエラーが出ないようにする
+
+```
+.\venv\Scripts\Activate.ps1
+```
+仮想環境を有効にする
+
+```
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+仮想環境に最新のライブラリをインストールする
+
+```
+tree /F | clip
+```
+- コマンドプロンプトでフォルダ構造などを取得するコマンド
+- 仮想環境を出力したら14万文字あった....。
 
 ## ブログなどの関連リンクなど
 *   [サンプルのGoogle Slides](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
@@ -48,36 +79,5 @@ Google Slides API を利用する際は、以下の点に注意してくださ�
 
 - SLIDES_API1490328969_0　この部分はGASで加筆修正した部分
 
+## ファイル構成
 ![image](https://github.com/user-attachments/assets/909caded-236a-48a0-b76b-f51be4d91f93)
-
-## コマンドなど
-```
-cd C:\Users\nepia\OneDrive\デスクトップ\Google_Slides
-```
-カレントディレクトリに移動
-
-```
-python -m venv venv
-```
-仮想環境を作成。1回しか使わない
-
-```
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-Visual Studio Codeのコマンドでエラーが出ないようにする
-
-```
-.\venv\Scripts\Activate.ps1
-```
-仮想環境を有効にする
-
-```
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-```
-仮想環境に最新のライブラリをインストールする
-
-```
-tree /F | clip
-```
-- コマンドプロンプトでフォルダ構造などを取得するコマンド
-- 仮想環境を出力したら14万文字あった....。
