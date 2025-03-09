@@ -48,6 +48,10 @@ tree /F | clip
 - コマンドプロンプトでフォルダ構造などを取得するコマンド
 - 仮想環境を出力したら14万文字あった....。
 
+## 進捗状況
+- 2025/03/08 スライド内容の読み取り・MD形式で吐き出しを実装
+- 2025/03/09 新規スライドの追加
+
 ## ブログなどの関連リンクなど
 *   [サンプルのGoogle Slides](https://docs.google.com/presentation/d/1GButmtqvj5LT8TzLexFRnA1-5tDsW5ft-S7E4_Sy8AE/edit?usp=sharing)
 *   [note　スライドにスプレッドシートの内容を挿入するスクリプト](https://note.com/nepia_infinity/n/nfe7a2f763655)
